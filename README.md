@@ -24,6 +24,11 @@ wizard -> todos los pasos
 
 flux-dev-basic -> prompts de chatGPT -> cambiar nombre a img0_001.jpg
 
+> [!NOTE]
+> En la carpeta `/data`:
+> /img0 == /original
+> /img1 == /transformed
+
 # (PARA DESARROLLO) Idea general
 
 - Idea general: Se trata de la generación text-to-mesh; se generan activos 3D a partir de prompts especialmente enfocados en la generación de texturas particulares. Se sigue un enfoque en tres grandes pasos.
