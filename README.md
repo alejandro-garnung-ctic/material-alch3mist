@@ -7,7 +7,7 @@ An end-to-end text-to-mesh FLUX.1 Kontext [dev]-based diffusion model specialize
 - [ ] Brief explanation
 - [ ] Text description
 - [ ] Demo video: comfyui explicar el flujo + Lora... y al final prueba de concepto con asistente conversacional en OWUI
-- [ ] URL a los pesos del modelo
+- [ ] URL a los pesos del modelo (en HF o como Release de Git)
 
 Flujo
 
