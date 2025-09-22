@@ -66,27 +66,27 @@ flux-dev-basic -> prompts de chatGPT -> cambiar nombre a img0_001.jpg
 
 ...
 
-# ComfyUI
+## ComfyUI
 
 ....
 
-## flux-dev-basic.json
+### flux-dev-basic.json
 
 ...
 
-## flux-kontext-dev-basic.json
+### flux-kontext-dev-basic.json
 
 ...
 
-## flux-kontext-texture-wizar3d-basic.json
+### flux-kontext-texture-wizar3d-basic.json
 
 ...
 
-# AI Toolkit - OSTRIS
+## AI Toolkit - OSTRIS
 
 ....
 
 
-# OWUI
+## OWUI
 
 ...
