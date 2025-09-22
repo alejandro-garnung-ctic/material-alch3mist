@@ -1,0 +1,83 @@
+{
+  "3": {
+    "inputs": {
+      "image": "img0_024.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Cargar Imagen"
+    }
+  },
+  "4": {
+    "inputs": {
+      "mask": [
+        "3",
+        1
+      ]
+    },
+    "class_type": "InvertMask",
+    "_meta": {
+      "title": "InvertirMáscara"
+    }
+  },
+  "9": {
+    "inputs": {
+      "repo_id": "JeffreyXiang/TRELLIS-image-large"
+    },
+    "class_type": "[Comfy3D] Load Trellis Structured 3D Latents Models",
+    "_meta": {
+      "title": "Load Trellis Structured 3D Latents Models"
+    }
+  },
+  "10": {
+    "inputs": {
+      "seed": 374620984021125,
+      "sparse_structure_guidance_scale": 7.5,
+      "sparse_structure_sample_steps": 12,
+      "structured_latent_guidance_scale": 3,
+      "structured_latent_sample_steps": 12,
+      "trellis_pipe": [
+        "9",
+        0
+      ],
+      "reference_image": [
+        "3",
+        0
+      ],
+      "reference_mask": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "[Comfy3D] Trellis Structured 3D Latents Models",
+    "_meta": {
+      "title": "Trellis Structured 3D Latents Models"
+    }
+  },
+  "12": {
+    "inputs": {
+      "save_path": "mesh0_024.glb",
+      "mesh": [
+        "10",
+        0
+      ]
+    },
+    "class_type": "[Comfy3D] Save 3D Mesh",
+    "_meta": {
+      "title": "Save 3D Mesh"
+    }
+  },
+  "13": {
+    "inputs": {
+      "mesh_file_path": [
+        "12",
+        0
+      ],
+      "preview3d": null
+    },
+    "class_type": "[Comfy3D] Preview 3DMesh",
+    "_meta": {
+      "title": "Preview 3DMesh"
+    }
+  }
+}

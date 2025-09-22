@@ -1,0 +1,307 @@
+{
+  "5": {
+    "inputs": {
+      "clip_name1": "t5xxl_fp16.safetensors",
+      "clip_name2": "clip_l.safetensors",
+      "type": "flux",
+      "device": "default"
+    },
+    "class_type": "DualCLIPLoader",
+    "_meta": {
+      "title": "DualCLIPLoader"
+    }
+  },
+  "6": {
+    "inputs": {
+      "vae_name": "ae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "Cargar VAE"
+    }
+  },
+  "22": {
+    "inputs": {
+      "seed": 610113031285360,
+      "sparse_structure_guidance_scale": 7.5,
+      "sparse_structure_sample_steps": 12,
+      "structured_latent_guidance_scale": 3,
+      "structured_latent_sample_steps": 12,
+      "trellis_pipe": [
+        "23",
+        0
+      ],
+      "reference_image": [
+        "30",
+        0
+      ],
+      "reference_mask": [
+        "25",
+        0
+      ]
+    },
+    "class_type": "[Comfy3D] Trellis Structured 3D Latents Models",
+    "_meta": {
+      "title": "Trellis Structured 3D Latents Models"
+    }
+  },
+  "23": {
+    "inputs": {
+      "repo_id": "JeffreyXiang/TRELLIS-image-large"
+    },
+    "class_type": "[Comfy3D] Load Trellis Structured 3D Latents Models",
+    "_meta": {
+      "title": "Load Trellis Structured 3D Latents Models"
+    }
+  },
+  "25": {
+    "inputs": {
+      "mask": [
+        "30",
+        1
+      ]
+    },
+    "class_type": "InvertMask",
+    "_meta": {
+      "title": "InvertirMascara"
+    }
+  },
+  "27": {
+    "inputs": {
+      "mask": [
+        "25",
+        0
+      ]
+    },
+    "class_type": "MaskPreview",
+    "_meta": {
+      "title": "MaskPreview"
+    }
+  },
+  "28": {
+    "inputs": {
+      "mesh_file_path": [
+        "29",
+        0
+      ],
+      "preview3d": null
+    },
+    "class_type": "[Comfy3D] Preview 3DMesh",
+    "_meta": {
+      "title": "Preview 3DMesh"
+    }
+  },
+  "29": {
+    "inputs": {
+      "save_path": "last_text_to_mesh.glb",
+      "mesh": [
+        "22",
+        0
+      ]
+    },
+    "class_type": "[Comfy3D] Save 3D Mesh",
+    "_meta": {
+      "title": "Save 3D Mesh"
+    }
+  },
+  "30": {
+    "inputs": {
+      "image": [
+        "35",
+        0
+      ]
+    },
+    "class_type": "SplitImageWithAlpha",
+    "_meta": {
+      "title": "Dividir Imagen con Alfa"
+    }
+  },
+  "31": {
+    "inputs": {
+      "conditioning": [
+        "37",
+        0
+      ],
+      "latent": [
+        "36",
+        0
+      ]
+    },
+    "class_type": "ReferenceLatent",
+    "_meta": {
+      "title": "ReferenceLatent"
+    }
+  },
+  "32": {
+    "inputs": {
+      "guidance": 3.5,
+      "conditioning": [
+        "31",
+        0
+      ]
+    },
+    "class_type": "FluxGuidance",
+    "_meta": {
+      "title": "FluxGuidance"
+    }
+  },
+  "33": {
+    "inputs": {
+      "conditioning": [
+        "37",
+        0
+      ]
+    },
+    "class_type": "ConditioningZeroOut",
+    "_meta": {
+      "title": "Acondicionamiento Cero"
+    }
+  },
+  "34": {
+    "inputs": {
+      "seed": 0,
+      "steps": 20,
+      "cfg": 8,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1,
+      "model": [
+        "39",
+        0
+      ],
+      "positive": [
+        "32",
+        0
+      ],
+      "negative": [
+        "33",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "KSampler"
+    }
+  },
+  "35": {
+    "inputs": {
+      "samples": [
+        "34",
+        0
+      ],
+      "vae": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "Decodificación VAE"
+    }
+  },
+  "36": {
+    "inputs": {
+      "pixels": [
+        "40",
+        0
+      ],
+      "vae": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "VAEEncode",
+    "_meta": {
+      "title": "VAE Codificar"
+    }
+  },
+  "37": {
+    "inputs": {
+      "text": "Make a realistic humanoid hand made entirely of polished bronze, with engraved surface patterns and scratches.\n\n\nDo not alter the shape, proportions, colors, background, or identity of the object in the image. Only apply the fish-scale effect to the surface of the skin, preserving all other details exactly as they are.",
+      "clip": [
+        "39",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Positive Prompt)"
+    }
+  },
+  "38": {
+    "inputs": {
+      "images": [
+        "35",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Vista previa de imagen"
+    }
+  },
+  "39": {
+    "inputs": {
+      "lora_name": "LORA_flux_kontext_depth_reference_cotrol.safetensors",
+      "strength_model": 1,
+      "strength_clip": 1,
+      "model": [
+        "43",
+        0
+      ],
+      "clip": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "Cargar LoRA"
+    }
+  },
+  "40": {
+    "inputs": {
+      "image": [
+        "44",
+        0
+      ]
+    },
+    "class_type": "FluxKontextImageScale",
+    "_meta": {
+      "title": "FluxKontextImageScale"
+    }
+  },
+  "41": {
+    "inputs": {
+      "filename_prefix": "texture-wizar3d-img2-001.png",
+      "images": [
+        "35",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Guardar Imagen"
+    }
+  },
+  "43": {
+    "inputs": {
+      "unet_name": "flux1-dev-kontext_fp8_scaled.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "Cargar Modelo de Difusion de Edición"
+    }
+  },
+  "44": {
+    "inputs": {
+      "image": "mesh0_027.glb [output]",
+      "refresh": "refresh"
+    },
+    "class_type": "LoadImageOutput",
+    "_meta": {
+      "title": "Cargar Imagen (desde Salidas)"
+    }
+  }
+}
