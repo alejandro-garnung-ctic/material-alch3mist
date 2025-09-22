@@ -85,6 +85,10 @@ flux-dev-basic -> prompts de chatGPT -> cambiar nombre a img0_001.jpg
 
 ...
 
+### image-to-mesh.json
+
+...
+
 ### flux-kontext-texture-wizar3d-basic.json
 
 ...
