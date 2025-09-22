@@ -1,5 +1,6 @@
 1 - Alch3mist, make a realistic humanoid hand made entirely of polished bronze, with engraved surface patterns and scratches.
 2 - Alch3mist, make a metallic dragon claw with oxidized bronze and intricate engraved patterns, realistic scratches and wear.
 3 - Alch3mist, make a leather-bound journal soaked in rain, wet surface texture, water droplets and soft reflections on aged leather.
-4 - Alch3mist, A humanoid figure with skin made of cracked porcelain, embedded with veins of molten gold, patches of rough stone, and translucent resin.
+4 - Alch3mist, make a humanoid figure with skin made of cracked porcelain, embedded with veins of molten gold, patches of rough stone, and translucent resin.
+
 
