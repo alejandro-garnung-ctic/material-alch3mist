@@ -26,7 +26,9 @@ flux-dev-basic -> prompts de chatGPT -> cambiar nombre a img0_001.jpg
 
 > [!NOTE]
 > En la carpeta `/data`:
+> 
 > /img0 == /original
+> 
 > /img1 == /transformed
 
 # (PARA DESARROLLO) Idea general
