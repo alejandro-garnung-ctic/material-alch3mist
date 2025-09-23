@@ -90,6 +90,9 @@ We have used it for BLABLABLA.
 
 We have employed a basic workflow, available [aquí](./flows/image-to-mesh/test_image_to_mesh_trellis.json), which encapsulates its main functionalities.
 
+> [!NOTE]
+> To visualized and comapre different meshes, we use standard illumination conditions by means of three discrete white light light points, with the software [Visor 3D](https://apps.microsoft.com/detail/9nblggh42ths?hl=es-MX&gl=ES).
+
 # Dataset
 
 We have created a dataset consisting of BLABLABLA
