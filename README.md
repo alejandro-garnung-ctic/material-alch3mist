@@ -93,6 +93,8 @@ We have employed a basic workflow, available [aquí](./flows/image-to-mesh/test_
 
 We have created a dataset consisting of BLABLABLA
 
+All the data (prompts, images and meshes) are available as a compressed Release [here](https://github.com/alejandro-garnung-ctic/material-alch3mist/releases/download/v0.0/data.zip).
+
 # Tools
 
 We have employed open-source tools, both in cloud and local versions, for the implementation of the different parts of the project. Among the most relevant, we highlight the following:
