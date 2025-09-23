@@ -31,45 +31,68 @@ flux-dev-basic -> prompts de chatGPT -> cambiar nombre a img0_001.jpg
 > 
 > /img1 == /transformed
 
-# (PARA DESARROLLO) Idea general
+# Table of Contents 
 
-- Idea general: Se trata de la generación text-to-mesh; se generan activos 3D a partir de prompts especialmente enfocados en la generación de texturas particulares. Se sigue un enfoque en tres grandes pasos.
+1. [Introduction](#introduction)
+2. [Models](#models)
+   1. [Flux1 dev](#flux1-dev)
+   2. [Flux1 kontext dev](#flux1-kontext-dev)
+   3. [Trellis](#trellis)
+3. [Tools](#tools)
+   1. [GPUs](#gpus)
+   2. [ComfyUI](#comfyui)
+   3. [AI Toolkit - OSTRIS](#ai-toolkit---ostris)
+   4. [OWUI](#owui)
+   5. [Python + PIL](#python--pil)
+5. [Results](#results)
 
-  - En primera instancia, podríamos pensar en entrenar un modelo de difusión/generativo end-to-end text-to-3D. Pero esto tiene sus inconvenientes, como costo y complejidad computacional y no hay tantas soluciones open source practicables aún. Menos en ComfyUI. Así que como primer workaround hemos pensado en sustituir el end-to-end por dos etapas, primero una generación text-to-image con Flux.1-dev y luego la generación multivista, triplano y 3d mesh con modelos como Trellis o InstantMesh. 
+# Introduction
 
-  - Pero hemos notado que la anterior configuración simple flojea al generar la textura de las mallas, y en vez de modificar la arquitectura o los parámetros del paso 3D, hemos decidido agregar un nuevo elemento a la etapa 2D que nos mejore esto. En esta nueva etapa añadimos un Flux1-kontext dev especializado en el perfeccionamiento de las texturas 2D a través de un LoRA entrenado en la potenciación de materiales, colores, etc. De esta forma, el primer FLUX genera la imagen fuente coherente y sin sesgo de estilo y el FLUX+LoRA consiguiente transforma esa imagen en una versión especializada (e.g. texturizada, con material aplicado, un estilo creativo…). Luego, el pipeline image=>mesh convierte esta imagen texturizada en una malla 3D final.
+## Introduction
 
-- Una ventaja de este enfoque es que es modular y flexible. Se pueden desenchufar y enchufar adaptadores LoRA o modelos FLUX a gusto, así como parametrizar a granularidad fina cualquiera de las etapas, sin modificar su compartamiento particular pero alterando conscientemente el funcionamiento general de todo el pipeline generativo. La arquitectura queda auto-orquesta. Otra ventaja de dedicar una etapa particular a la potenciación de la textura 2D es que así el salto 2D a 3D no la menoscaba, sino que se enfocará más aún en la generación fiel y de detalles finos de la misma. Otra ventaja es que hacer recaer la responsabilidad de la generación de textura en el LoRA nos permite disponer de tiempos de entrenamiento muy cortos, de pocas horas, en comprarción con lo que sería reentrenar o finetunear un FLUX1-kontext dev entero con un dataset personalizado.
+The **Material-Alch3mist** project arises from the need to create 3D assets rich in textures from textual descriptions, combining innovation in generative models with modular flexibility. It is an **end-to-end text-to-mesh pipeline** based on **FLUX.1 Kontext \[dev]**, specialized in generating and enhancing textures, ensuring that the final 3D meshes retain fine details and stylistically coherent materials.
 
-- Entrenamiento del Lora con OSTRIS sobre FLUX.1 (Imagen → Imagen con transformación). No necesitamos millares de datos, basta con 50–200 pares consistentes. Ajustar rank=8–16, lr=1e-4, entrenar 2–4h (dependiendo dataset). Para validación, generar outputs con prompts nuevos para ver si realmente aplica el “efecto”. Para generar los pares de entrenamiento, se puede:
+The core idea of the project is based on a **modular three-stage approach**. First, base images are generated from textual prompts using **FLUX.1-dev**, producing 2D assets that are coherent with the desired scene or object. The second stage introduces a **specialized FLUX.1-Kontext dev for texture enhancement**, trained with a **lightweight LoRA** that transforms these base images into enriched versions, applying specific materials, styles, and colors. Finally, the third stage converts these textured images into **multiview 3D meshes**, ensuring that texture fidelity is preserved when transitioning from 2D to 3D.
 
-  - Generar objetos base con FLUX.1 DEV (ej: “simple chair, plain white plastic”) (e.g. con el flujo flux_dev_basic.json).
+One of the main advantages of this approach is its **flexibility and modularity**. Each stage of the pipeline can be adjusted independently: different LoRAs or FLUX variants can be incorporated, the generative flow can be finely parameterized, and new textures can be experimented with without compromising the base model. Additionally, delegating texture enhancement to a LoRA enables **fast training**, requiring only a few hours of computation and a relatively small number of image pairs, avoiding the need to retrain full models with large datasets.
 
-  - Editar (poco a poco) con prompts en el flujo flux_kontext_dev_basic.json o Stable Diffusion XL para aplicar material e ir guardando las imágenes originales, edits y prompts.
+The project also integrates a **testing and visualization environment**, including a repository with ComfyUI JSON configurations, ChatGPT prompts for generating texture and material variations, and a workflow that allows producing images, transforming them, and generating the final 3D mesh with ease. Optionally, a **web interface based on OWUI** is planned, where users can submit prompts, visualize results, and explore multiviews of their generated assets.
 
-  - Para que el LoRA entre en acción hay que especificar la trigger Word que irá en los prompts del usuario. Esta trigger words activarán, en tiempo de inferencia (generación), el estilo que está aprendiendo el LoRA para que el modelo aplique el estilo. Por ejemplo, podemos poner “Alch3mist” como trigger Word y los prompts serán del tipo “Material Alch3mist, genérame una vaca con piel de cocodrilo y con una melena en llamas”.
-
-  - Opcionalmente recortar y normalizar imágenes a 512–768-1024px y guardar los prompts con los que se han generado las imágenes transformadas para conformar los datasets de entrenamiento y control. E.g. unas 25 imágenes por material, con unos 5 materiales (total 125 imágenes).
-
-  - Preparar la API => quizá una pequeña aplicación web (o bien usar OWUI directamente, y así aprovechamos la visualización de la malla) en la que subir el prompt y recibir el 3D y la imagen generada, así como las multivista. Así llamamos a nuestros servicios de CTIZ con simples consultas remotas y evitamos replicar el setup en otros equipos (¿hacer que se requiera clave pública/privada proporcionada por nosotros para usarlos?).
+Overall, **Material-Alch3mist** represents an innovative approach to text-to-mesh generation, combining diffusion techniques, LoRA, and modular pipelines to provide an accessible, efficient, and highly customizable 3D creation experience, ideal for artistic exploration and practical applications in design and simulation environments.
 
 # Models
 
-...
+Essentially, in this project we use three different models. Each serves a specific purpose and was motivated by the need to address challenges that arose during the development of the main idea driving this project: the generation of realistic and visually striking 3D objects from text.
 
 ## Flux1 dev
 
-...
+This model consists of BLABLABLABLA.
+
+We have used it for BLABLABLA.
+
+We have employed a basic workflow, available [aquí](./flows/flux-dev-basic/flux-dev-basic.json), which encapsulates its main functionalities.
 
 ## Flux1 kontext dev
 
-...
+This model consists of BLABLABLABLA.
+
+We have used it for BLABLABLA.
+
+We have employed a basic workflow, available [aquí](./flows/flux-kontext-dev-basic/flux-kontext-dev-basic.json), which encapsulates its main functionalities.
 
 ## Trellis
 
-...
+This model consists of BLABLABLABLA.
+
+We have used it for BLABLABLA.
+
+We have employed a basic workflow, available [aquí](./flows/image-to-mesh/test_image_to_mesh_trellis.json), which encapsulates its main functionalities.
 
 # Tools
+
+We have employed open-source tools, both in cloud and local versions, for the implementation of the different parts of the project. Among the most relevant, we highlight the following:
+
+## GPUs
 
 ...
 
@@ -77,27 +100,18 @@ flux-dev-basic -> prompts de chatGPT -> cambiar nombre a img0_001.jpg
 
 ....
 
-### flux-dev-basic.json
-
-...
-
-### flux-kontext-dev-basic.json
-
-...
-
-### image-to-mesh.json
-
-...
-
-### flux-kontext-texture-wizar3d-basic.json
-
-...
-
 ## AI Toolkit - OSTRIS
 
 ....
 
-
 ## OWUI
 
 ...
+
+## Python + PIL
+
+Python with PIL was used to convert all images to RGBA and save them as PNG, ensuring a uniform format for the dataset, which is necessary for LoRA training and 3D texture generation.
+
+# Results
+
+The file [baseline_vs_enhanced](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/results/baseline_vs_enhanced.md) contains a compilation of the results obtained. It is referenced for consulting the experiments and their conclusions.
