@@ -1,0 +1,51 @@
+0 - 
+1 - 
+2 - 
+3 - 
+4 - 
+5 - 
+6 - 
+7 - 
+8 - 
+9 - 
+10 -
+11 - 
+12 - 
+13 - 
+14 - 
+15 - 
+16 - 
+17 - 
+18 - 
+19 - 
+20 - 
+21 - 
+22 - 
+23 - 
+24 - 
+25 - A metallic robot with rust stains. The metallic texture is well-done, but the rust could be a little more pronounced. The edges between metal plates could be more prominent.
+26 - A ceramic vase with cracked glaze. The texture is too rough and doesn't look like real glaze. The cracks should be pronounced and have depth, meaning they should appear dark in the image. The texture should be more realistic.  
+27 - An antique leather-bound book. The leather is too artificial and doesn't look like it's been used for years. It has to look really old. 
+28 - A wool scarf with gold embroidery. I want a fluffier, warmer texture. It has to look like a valuable piece of jewelry because of the gold embroidery.  
+29 - A person with skin made of tree bark. The surface is too smooth and shiny. The tree bark is uneven, with raised areas, areas of different colors, green leaves, etc. The roots are quite well done, but I wish they were more pronounced.
+30 - A chair made of clear ice. Ice is colder, has whitish areas, and even some snow. This one looks like a wet plastic chair. Make it look like it's really made of ice.
+31 - A dragon with obsidian scales. The dragon's shape and the texture of the scales are perfect, but the material doesn't look like obsidian. Obsidian is a more crystallized, black mineral. Make its scales out of obsidian. 
+32 - A futuristic building made of titanium. I want the titanium to have a more metallic, realistic, exaggerated look. The shape of the house needs to have more angles where the light is reflected. I want a smoother, darker texture. 
+33 - A crown of precious stones with emeralds and rubies. The jewels should have sharper angles and exaggerated edges. The golden structure should be smoother and simpler, without so many flourishes.
+34 - A warmly glowing paper lantern. The problem with this image is that it looks like a compact, solid object. Because it has such a rigid texture and no ripples, you can't tell it's a lantern made of a thin material like paper.
+35 - A moss-covered stone bridge. Change completely the look of the rocks. These should be larger (rocks, not stones) and should have areas of green moss covering the surface. It shouldn't just have green grass, but moss and a deep, damp feel. You are free to completely change the look of the bridge, its composition and shape, as well as its style.
+36 - A person with glass skin. Modify the material to make it truly crystal-like, transparent, with realistic reflections and shine. It should look delicate, fragile, clean, and have a crystalline texture. Get rid of the appendages sprouting from the skin. The skin must be like glass, transparent, light must go through it. I have to see the reflection of the light on her skin as if it were a window.
+37 - A fox with golden fur. The fur must be golden in color, just as if it were made of gold. Besides the color, the texture should be a mix of fur and frayed gold threads.
+38 - 
+39 - 
+40 - 
+41 - 
+42 - 
+43 - 
+44 - 
+45 - 
+46 - 
+47 - 
+48 - 
+49 - 
+
