@@ -119,6 +119,31 @@ We have employed open-source tools, both in cloud and local versions, for the im
 
 ...
 
+## Docker
+
+The ComfyUI server used is encapsulated within a Docker container based on [this image](https://github.com/yongxinchen/comfyui-docker/blob/main/comfy3d-pt25/README.adoc), which contains all the necessary dependencies to run the ComfyUI-3D-Pack, as well as some additional ones specified in the following Dockerfile:
+
+```dockerfile
+FROM yanwk/comfyui-boot:comfy3d-pt25
+
+# Install essential OpenGL/EGL dependencies using zypper
+RUN zypper -n refresh && \
+    zypper -n install --allow-vendor-change \
+    xorg-x11-server \
+    xauth \
+    libglvnd && \
+    zypper -n clean -a
+
+# Install Python dependencies
+RUN pip install --no-cache-dir \
+    pydantic-settings \
+    alembic \
+    py7zr \
+    av
+```
+
+To launch the container, the following command is sufficient, which will start the web interface at `localhost:8089`.
+
 ## Python + PIL
 
 Python with PIL was used to resize and convert all images to RGBA and save them as PNG, ensuring a uniform format for the dataset, which is necessary for LoRA training and 3D texture generation.
