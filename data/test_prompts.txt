@@ -1,6 +1,10 @@
-1 - Alch3mist, make a realistic humanoid hand made entirely of polished bronze, with engraved surface patterns and scratches.
-2 - Alch3mist, make a metallic dragon claw with oxidized bronze and intricate engraved patterns, realistic scratches and wear.
-3 - Alch3mist, make a leather-bound journal soaked in rain, wet surface texture, water droplets and soft reflections on aged leather.
-4 - Alch3mist, make a humanoid figure with skin made of cracked porcelain, embedded with veins of molten gold, patches of rough stone, and translucent resin.
+001 - Alch3mist, make a realistic humanoid hand made entirely of polished bronze, with engraved surface patterns and scratches.
 
+002 - Alch3mist, make a metallic dragon claw with oxidized bronze and intricate engraved patterns, realistic scratches and wear.
+
+003 - Alch3mist, make a leather-bound journal soaked in rain, wet surface texture, water droplets and soft reflections on aged leather.
+
+004 - Alch3mist, make a humanoid figure with skin made of cracked porcelain, embedded with veins of molten gold, patches of rough stone, and translucent resin.
+
+* Plus a static prompt common to all: "The generated image must be optimized so that afterwards the image can be used entirely for the 3D model mesh generation based on the multi-view generation from this image. Because the most important goal is that the image must be optimal for the generation from that single image to the 3D mesh, optimizing the viewpoint and shadows. Focus mainly on applying the requested texture or material effect to the object(s). The overall shape and identity of the object should remain recognizable, but small changes in details, lighting, shading, or colors are acceptable if they help achieve a more convincing result. The background and general composition should stay similar, though minor adjustments are allowed if needed. Prioritize making the new material or texture look realistic and well-integrated, even if that means slightly modifying other aspects of the image. You must leave the background totally unchanged.".
 

@@ -1,0 +1,105 @@
+000 - A minimalist wooden chair coated with a bright, cracked turquoise ceramic glaze, featuring a highly detailed texture. Since it is made of wood, typical wood grain stripes should be visible. However, it should have the opacity of ceramic because it is ceramic. And in the areas where it is cracked, certain shadows should be noticeable because the cracks are at a certain depth.
+
+001 - A smooth white porcelain teapot wrapped in molten lava cracks, with an ultra-realistic surface. The teapot is missing a true partial wrapping in the lava. And the effect of the cracking needs to be clearer, so the cracks should give a sense of depth or gently indent. The magma should slide over the porcelain surface of the teapot. The magma should be above the porcelain surface, it should be a liquid clearly differentiated from the teapot.
+
+002 - A vintage leather-covered book with embossed golden runes, with a worn texture. The texture should be somewhat more worn, even frayed in one or two places, in the way leather gets frayed. And some runes should shine a little more, to give it a vintage effect.
+
+003 - A crystal chalice made entirely of frosted ice with intricate fractal cracks. The frosted ice patterns should be more polygonal and rectangular because they are synthetic, like an elegant ice stained glass. And the fractal cracks should have very high resolution to be noticeable, and they should have a perfect stylistic connection with the frosted ice patterns.
+
+004 - A corroded metal cube with green patina and rust, hyper-detailed texture. Those corner motifs should be brighter because they are still metallic even though they should be oxidized. And the tone of the cube should be more metallic, but it should still look corroded and rusty.
+
+005 - An elegant smartphone case made of polished obsidian stone, with a reflective black surface and subtle small cracks. The cracks should be smaller because it has been indicated that they should be small, but the cracks must be visible to the naked eye, meaning they should stand out even though there are few, and the obsidian is even shinier. Furthermore, the case should be a little bulkier to make it clear that the case is made of obsidian and not the phone. The case should be slightly larger and thicker. To make it even more noticeable that it is made of obsidian, it should have one or two characteristic cuts as if the obsidian had broken at the corners of the case, for example.
+
+006 - A violin carved in translucent amber with trapped insects and resin textures. Since it is carved, the traces should be more manual, synthetic, as if some parts were carved with a knife. The texture should be minimally stickier. And the insects should be a bit more varied, some insects should be more different from the rest. But overall the image is quite good and shouldn't be changed much.
+
+007 - A futuristic helmet covered in reptilian dragon scales, with an iridescent shine. Only the helmet should be shown, not the person wearing it. Only the helmet should have this required texture and material. The dragon scales should be slightly larger, and the shine should be specifically a bit more golden. The helmet should be the only object in the image. Only yhe helmet has to have this texture; the person wearing it should not have the same texture as the helmet. A single futuristic helmet, isolated on a plain background. The helmet is fully covered in reptilian dragon scales, with slightly larger scales and an iridescent golden shine. The helmet is floating alone, without any person, head, body, or mannequin inside it. Only the helmet has this texture and material. No human features, no face, no hair, no skin, no body. The helmet should be the only object in the image.
+
+008 - A chessboard with alternating squares of volcanic basalt and neon resin. The materials should be a bit more exaggerated so that the basalt clearly appears as basalt and the neon resin clearly appears as neon resin. It should not give the impression that they are the same material. Additionally, the pieces or figures on each square must have the corresponding material of the square they are on. The volcanic basalt squares should be darker and more basalt-like, more exaggerated. The neon resin squares should be more like resin and also more exaggerated. The contrast between the two types of materials for each type of square should be more noticeable.
+
+009 - A cat sculpted from leaves with spiderweb edges. The cat should have a more three-dimensional appearance because it is sculpted. The leaves should also be some green, in addition to the orange and brown ones. The spiders should be removed from the image. There should be spider silk on some of the edges of the cat, meaning there should be webbing in some areas, but there should be no spiders.
+
+010 - A cup of coffee wrapped in moss and small glowing mushrooms, organic textures. The mushrooms should be smaller and should not glow, because the mushrooms need to be realistic and should not shine. There should be a faint heat haze coming from the cup of coffee. The coffee cup alongside the mosses are the most important main objects in the image. The smoke should be realistic and very subtle, almost imperceptible. The mushrooms should not shine at all. The mushrooms need to be smaller. A single ceramic cup of hot coffee, placed on a bed of soft green moss. Small, realistic mushrooms grow around the cup, but they are very tiny and natural-looking. The mushrooms are strictly not glowing. The moss and the cup are the main focus. A faint, subtle heat haze rises gently from the coffee — almost invisible, very delicate. The atmosphere is calm, natural, and realistic. The coffee cup and mushrooms are the most important elements, shown clearly and sharply. The mushrooms must not shine at all.
+
+011 - A spherical perfume bottle made of cracked mossy stones. The bottle should be more mossy in some small localized areas, especially towards the bottom and around the neck of the bottle. And there should be a visibly larger and more noticeable crack.
+
+012 - A mechanical wristwatch forged from ice, with magma gears visible under transparent frozen layers. The gears must be visibly made of magma, in red and black lava colors like the magma, and must be completely contained within the watch crystal without coming into contact with the interior. The hands and the gears must be realistic volcanic magma, only the gears. The rest of the watch is fine.
+
+013 - A straight skateboard deck, perfectly flat with no curve, no bend, no concave. The entire deck is made of woven carbon fiber with a clear resin coating, showing the texture sharply. The board must appear completely straight, rigid, and aligned, like a flat plank. The surface should be slightly darker than neutral, but not too dark — medium-dark, with visible details of the carbon fiber weave. The lighting should be even and soft, avoiding harsh shadows. The skateboard is the only object in the image, isolated on a neutral background.
+
+014 - A hyper-realistic carrot cake from a bakery, sculpted exactly in the shape of a human head. This is not a human head — it is 100% a real dessert. The entire head is made of cake: moist crumbly sponge, orange carrot bits baked inside, layers of mascarpone cheese, cream cheese frosting, and whipped cream. In some localized areas of the head, parts of the cake are clearly visible, with exposed crumbs, cream, and mascarpone filling, proving it is a real pastry. The surface must look edible and unmistakably like carrot cake, with traces of cream and frosting across the face. The sculpture wears plush velvet headphones wrapped in holographic aluminum foil. The head is the only object in the image, isolated on a neutral background, captured in detailed food-photography style.
+
+015 - A bust statue of Roman style carved in orange ice, with a surface covered in crawling sugar cracks, and hair made of yellow plastic. The material of the bust should have areas with ice or moisture because the bust is made of ice cream, orange ice cream. Some of the cracks should be whitish because they are glazed with sugar. And the hair should contrast more with the rest of the sculpture because it must be yellow and made of plastic, so it is rather opaque. Overall, the sculpture should give a frozen appearance because it is ice cream. And there should be fewer cracks.
+
+016 - A hyper-realistic modern sofa, completely upholstered with thousands of sharp hedgehog spines. The sofa is entirely covered with spines, no fabric visible. The color of the sofa is light brown, identical to the color of a hedgehog. At the very tip of each and every spine, there is a single tiny droplet of yellow lemonade. The droplets appear only at the sharp tips of the spines, never on the sofa surface itself. Each spine ends with one clear, glossy lemonade drop, like condensation or nectar. The lemonade droplets must not appear anywhere else — not on the sofa body, not on the upholstery, not on the floor, not in the air — only at the ends of the spines. The texture of the sofa must be identical to hedgehog skin and spines, natural, realistic, and spiky. Clear, sharp, macro-style focus on the tips of spines with lemonade drops.
+
+017 - A small bonsai with some leaves made of reflective liquid mercury, other leaves made of fine stone, and the stem made of charcoal. Some leaves really must be made of mercury that is melting into those small leaves, and some of them must reflect light. That is to say, some leaves must be of mercury while others must be made of green plant material. And some distinct leaves must be made of stone, from fine gray stone material. Finally, some parts of the tree's stem must be made of black charcoal. Some leaves must be green, others must be made of mercury, and other leaves must be made of stone. All three types of leaves must be clearly differentiated from each other and must not be mixed together. A small bonsai tree with three clearly separate branches. One branch has only reflective liquid mercury leaves — shiny, metallic, some slightly melting, and all reflecting light. A second branch has only real green plant leaves — natural, vibrant, no metallic or stone. A third branch has only fine gray stone leaves — solid, textured, carved stone appearance. Each branch must contain only one type of leaf, and all three types of leaves must be clearly separated, never mixed within the same branch. The bonsai stem is partially made of black charcoal, rough and natural. The tree is the only object in the image, isolated, hyper-realistic, highly detailed, clearly showing the three branches and their distinct leaf materials.
+
+018 - A car key made of an old green soap with a small shiny spot of natural tomato. The soap must be even older. There should be a single one visible stain of ketchup in one corner of the key.
+
+019 - A hyper-realistic basketball, entirely made of real aquatic blue fish scales and stone, with a few thin engraved golden lines. Impregnated in a few ocen water droplets. The blue fish scales must be extremely realistic, like real scales from actual sea fish: detailed, overlapping, shiny, wet-looking, textured naturally. The stone parts should be solid and natural-looking. The engraved golden lines are subtle and only appear on the stone sections. The basketball is the only object in the image, isolated, with clear, high-detail rendering of the fish scales showing realistic light reflection, color variation, and natural aquatic texture.
+
+020 - A grey typewriter with keys sculpted in pearls and diamonds and a frame wrapped in barnacles. A realistic gray typewriter with three types of keys: normal keys, pearl keys, and diamond keys. Some keys are ordinary gray keys, some keys are made of real pearls, and some keys are made of real diamonds. Each type of key is clearly distinguishable and never mixed. The body of the typewriter is completely normal and ordinary, gray in color, with standard typewriter texture. Only in a few very small areas of the frame, the body is covered by realistic marine barnacles (percebes), detailed and textured like actual barnacles from the sea. The typewriter is the only object in the image, isolated, hyper-realistic, with sharp detail showing the different materials of the keys and the tiny barnacles on the frame.
+
+021 - A watch strap woven with glowing optical fiber threads, placed on a human wrist whose skin is made of silk and has small areas that are burning. The human's skin is made of silk and has small areas that are burning. The watch should not be burning; the watch should simply have a strap made of glowing fiber optic cables.
+
+022 - A pencil made of polished bone with intricate squid ink engravings. The base material of the pencil should be more whitish because it is made of bone. And the squid ink should be darker, with a single one tiny very small droplet spilling from the pencil to the ground.
+
+023 - A skateboard made of uranium with neon graffiti drawings and two tracks on the skateboard that left green stains. The base material of the skateboard should be yellow-green and brown uranium, because it needs to have a tone like uranium rock. The neon drawings should be much smaller and should only cover a small portion of the skateboard's surface. It is important that the base material of the board is stone, specifically gray-brown stone. And the skateboard should have only four wheels.
+
+024 - A humanoid figure with skin made of grass, veins of dirt, and hair made of braided rubber strands. Very thin and fine veins. The head must remain exactly the same, you must not modify any pixel of the head. The figure's nipples must dissapear, the nipples of the person must not exist in the picture. The hair is made of black rubber braids, slightly larger than normal, opaque and slightly wet.
+
+025 - A metallic robot with rust stains. The metallic texture is well-done, but the rust could be a little more pronounced. The edges between metal plates could be more prominent.
+
+026 - A ceramic vase with cracked glaze. The texture is too rough and doesn't look like real glaze. The cracks should be pronounced and have depth, meaning they should appear dark in the image. The texture should be more realistic.
+
+027 - An antique leather-bound book. The leather is too artificial and doesn't look like it's been used for years. It has to look really old.
+
+028 - A wool scarf with gold embroidery. I want a fluffier, warmer texture. It has to look like a valuable piece of jewelry because of the gold embroidery.
+
+029 - A person with skin made of tree bark. The surface is too smooth and shiny. The tree bark is uneven, with raised areas, areas of different colors, green leaves, etc. The roots are quite well done, but I wish they were more pronounced.
+
+030 - A chair made of clear ice. Ice is colder, has whitish areas, and even some snow. This one looks like a wet plastic chair. Make it look like it's really made of ice.
+
+031 - A dragon with obsidian scales. The dragon's shape and the texture of the scales are perfect, but the material doesn't look like obsidian. Obsidian is a more crystallized, black mineral. Make its scales out of obsidian.
+
+032 - A futuristic building made of titanium. I want the titanium to have a more metallic, realistic, exaggerated look. The shape of the house needs to have more angles where the light is reflected. I want a smoother, darker texture.
+
+033 - A crown of precious stones with emeralds and rubies. The jewels should have sharper angles and exaggerated edges. The golden structure should be smoother and simpler, without so many flourishes.
+
+034 - A warmly glowing paper lantern. The problem with this image is that it looks like a compact, solid object. Because it has such a rigid texture and no ripples, you can't tell it's a lantern made of a thin material like paper.
+
+035 - A moss-covered stone bridge. Change completely the look of the rocks. These should be larger (rocks, not stones) and should have areas of green moss covering the surface. It shouldn't just have green grass, but moss and a deep, damp feel. You are free to completely change the look of the bridge, its composition and shape, as well as its style.
+
+036 - A person with glass skin. Modify the material to make it truly crystal-like, transparent, with realistic reflections and shine. It should look delicate, fragile, clean, and have a crystalline texture. Get rid of the appendages sprouting from the skin. The skin must be like glass, transparent, light must go through it. I have to see the reflection of the light on her skin as if it were a window.
+
+037 - A fox with golden fur. The fur must be golden in color, just as if it were made of gold. Besides the color, the texture should be a mix of fur and frayed gold threads.
+
+038 - A wool blanket covered in frost. A wool blanket completely covered in white frost, creating a thick snow coating. The frost is sparkling, crystalline, and reflective, catching sunlight realistically. The blanket is the only object in focus; the background is fully out of focus and neutral. Emphasize the frost on the surface of the blanket, making it clearly visible and melting slightly in bright sunlight. There must be snow on the wool. The wool must be covered in visible real detailed frost.
+
+039 - A leather jacket with neon patches. The patches are different colours. The patches are glowing, bright, shiny, and luminescent, like real neon lights. Only the patches are neon and reflective; the rest of the jacket remains dark and matte. Emphasize the brightness, glow, and contrast of the neon patches against the dark leather.
+
+040 - A marble staircase with cracks. A marble staircase composed only of steps (treads and risers), centered in the scene. The staircase is the only object in the image. Only the steps have cracks; no other part of the image has cracks or any other details. The cracks are deep, dark, realistic, with shadows that show depth. Emphasize the solidity and sharp edges of the marble steps. The background is completely empty, neutral, and featureless. No walls, no floors, no furniture, no objects, no people. Focus entirely on the staircase steps and the cracks on them.
+
+041 - A clay mask painted with vivid colors. A flat, simple clay mask painted with vivid colors. The mask is geometric, stylized, cartoonish, or handcrafted-looking, made of solid clay. Only basic shapes, no realistic facial details. Floating on a neutral background.
+
+042 - A person with metallic skin. The skin should be shinier and brighter because it is hard metallic material.
+
+043 - A wolf with obsidian fur. A wolf with skin made entirely of hard, black obsidian mineral. The skin is reflective, shiny, and appears like polished dark black obsidian. The body is rigid, sharp, and crystalline, with clearly defined edges and facets like real obsidian rock. The wolf’s fur, if any, is replaced by hard obsidian spikes or shards. Emphasize hardness, shininess, and stone-like properties. No softness anywhere.
+
+044 - A glass sphere that contains moving smoke. The glass of the sphere should be slightly brighter and shinier in some areas.
+
+045 - A store made of woven silk and wool. The store must be the only object in the scene and the most representative; it should be the only focused object in the scene.
+
+046 - A wooden shield with carved runes.
+
+047 - A person with shiny glass hair. A humanoid figure with hair made entirely of transparent, shiny glass strands. Only the hair is reflective and glass-like, all other body parts have normal materials. Each strand is clear, smooth, and physically resembles real glass.
+
+048 - A bird with silver feathers. The plumage of the bird must be more metallic and shinier and brighter and neater and more elegant because it is entirely silver.
+
+049 - A paper origami dragon.
+
+* All of the above plus a static prompt common to all, which follows: "The generated image must be optimized so that afterwards the image can be used entirely for the 3D model mesh generation based on the multi-view generation from this image. Because the most important goal is that the image must be optimal for the generation from that single image to the 3D mesh, optimizing the viewpoint and shadows. Focus mainly on applying the requested texture or material effect to the object(s). The overall shape and identity of the object should remain recognizable, but small changes in details, lighting, shading, or colors are acceptable if they help achieve a more convincing result. The background and general composition should stay similar, though minor adjustments are allowed if needed. Prioritize making the new material or texture look realistic and well-integrated, even if that means slightly modifying other aspects of the image. You must leave the background totally unchanged.".
+
+
+
+
