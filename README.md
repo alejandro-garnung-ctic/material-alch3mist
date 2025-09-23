@@ -132,3 +132,4 @@ The file [baseline_vs_enhanced](https://github.com/alejandro-garnung-ctic/materi
 - https://arxiv.org/abs/2506.15742
 - https://arxiv.org/abs/2412.01506
 - https://arxiv.org/abs/2106.09685
+- https://docs.comfy.org/tutorials/flux/flux-1-kontext-dev#flux-1-kontext-dev-workflow
