@@ -38,7 +38,8 @@ flux-dev-basic -> prompts de chatGPT -> cambiar nombre a img0_001.jpg
    1. [Flux1 dev](#flux1-dev)
    2. [Flux1 kontext dev](#flux1-kontext-dev)
    3. [Trellis](#trellis)
-3. [Tools](#tools)
+3. [Dataset](#dataset)
+4. [Tools](#tools)
    1. [GPUs](#gpus)
    2. [ComfyUI](#comfyui)
    3. [AI Toolkit - OSTRIS](#ai-toolkit---ostris)
@@ -87,6 +88,10 @@ This model consists of BLABLABLABLA.
 We have used it for BLABLABLA.
 
 We have employed a basic workflow, available [aquí](./flows/image-to-mesh/test_image_to_mesh_trellis.json), which encapsulates its main functionalities.
+
+# Dataset
+
+We have created a dataset consisting of BLABLABLA
 
 # Tools
 
