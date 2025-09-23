@@ -1,3 +1,4 @@
+0 - A person wearing armor made of volcanic rock.
 1 - A minimalist wooden chair covered in glossy, cracked turquoise ceramic glaze, highly detailed texture, studio lighting.
 2 - A smooth white porcelain teapot wrapped in molten lava cracks glowing orange, ultra-realistic surface.
 3 - A vintage leather-bound book with embossed golden runes, worn texture, dramatic shadows.
@@ -22,3 +23,28 @@
 22 - A wristwatch strap woven from glowing fiber-optic threads, futuristic materials.
 23 - A fountain pen crafted from polished bone with intricate scrimshaw carvings, tactile textures.
 24 - A skateboard helmet with neon graffiti textures glowing under blacklight, gritty urban style.
+25 - A metallic robot with rust patches.
+26 - A ceramic vase with cracked glaze.
+27 - A leather-bound ancient book.
+28 - A woolen scarf with golden embroidery.
+29 - A person with skin made of tree bark.
+30 - A chair made of transparent ice.
+31 - A dragon with obsidian scales.
+32 - A futuristic building made of titanium.
+33 - A gemstone crown with emeralds and rubies.
+34 - A paper lantern glowing warmly.
+35 - A stone bridge covered in moss.
+36 - A person with skin made of glass.
+37 - A fox with golden fur.
+38 - A wool blanket covered in frost.
+39 - A leather jacket with neon patches.
+40 - A marble staircase with cracks.
+41 - A clay mask painted with vivid colors.
+42 - A person with metallic skin.
+43 - A wolf with obsidian fur.
+44 - A glass orb containing swirling smoke.
+45 - A fabric tent woven from silk and wool.
+46 - A wooden shield with carved runes.
+47 - A person with glowing crystal hair.
+48 - A bird with feathers made of silver.
+49 - A paper origami dragon.
