@@ -115,7 +115,7 @@ We have employed open-source tools, both in cloud and local versions, for the im
 
 ## Python + PIL
 
-Python with PIL was used to convert all images to RGBA and save them as PNG, ensuring a uniform format for the dataset, which is necessary for LoRA training and 3D texture generation.
+Python with PIL was used to resize and convert all images to RGBA and save them as PNG, ensuring a uniform format for the dataset, which is necessary for LoRA training and 3D texture generation.
 
 # Results
 
