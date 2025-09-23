@@ -54,7 +54,7 @@ flux-dev-basic -> prompts de chatGPT -> cambiar nombre a img0_001.jpg
 
 The **Material-Alch3mist** project arises from the need to create 3D assets rich in textures from textual descriptions, combining innovation in generative models with modular flexibility. It is an **end-to-end text-to-mesh pipeline** based on **FLUX.1 Kontext \[dev]**, specialized in generating and enhancing textures, ensuring that the final 3D meshes retain fine details and stylistically coherent materials.
 
-The core idea of the project is based on a **modular three-stage approach**. First, base images are generated from textual prompts using **FLUX.1-dev**, producing 2D assets that are coherent with the desired scene or object. The second stage introduces a **specialized FLUX.1-Kontext dev for texture enhancement**, trained with a **lightweight LoRA** that transforms these base images into enriched versions, applying specific materials, styles, and colors. Finally, the third stage converts these textured images into **multiview 3D meshes**, ensuring that texture fidelity is preserved when transitioning from 2D to 3D.
+The core idea of the project is based on a **modular three-stage approach**. First, base images are generated from textual prompts using [**FLUX.1-dev**](https://github.com/black-forest-labs/flux), producing 2D assets that are coherent with the desired scene or object. The second stage introduces a specialized [**FLUX.1-Kontext**](https://fluxcontext.org/) dev for texture enhancement, trained with a **lightweight LoRA** that transforms these base images into enriched versions, applying specific materials, styles, and colors. Finally, the third stage converts these textured images into **multiview 3D meshes** using [**TRELLIS**](https://trellis3d.github.io), ensuring that texture fidelity is preserved when transitioning from 2D to 3D.
 
 One of the main advantages of this approach is its **flexibility and modularity**. Each stage of the pipeline can be adjusted independently: different LoRAs or FLUX variants can be incorporated, the generative flow can be finely parameterized, and new textures can be experimented with without compromising the base model. Additionally, delegating texture enhancement to a LoRA enables **fast training**, requiring only a few hours of computation and a relatively small number of image pairs, avoiding the need to retrain full models with large datasets.
 
@@ -126,3 +126,9 @@ Python with PIL was used to resize and convert all images to RGBA and save them 
 # Results
 
 The file [baseline_vs_enhanced](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/results/baseline_vs_enhanced.md) contains a compilation of the results obtained. It is referenced for consulting the experiments and their conclusions.
+
+# References
+
+- https://arxiv.org/abs/2506.15742
+- https://arxiv.org/abs/2412.01506
+- https://arxiv.org/abs/2106.09685
