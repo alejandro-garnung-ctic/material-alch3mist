@@ -7,3 +7,5 @@ In the following file, we present a tabular record of the comparison results bet
 | 1 | ![original1](../data/original/img_000.png) | ![transformed1](../data/original/img_000.png) | ![final_images1](../data/final_images/img_000.png) |
 | 2 | ![original2](../data/original/img_001.png) | ![transformed1](../data/original/img_001.png) | ![final_images2](../data/final_images/img_001.png) |
 | ... | ... | ... | ... |
+
+# NOTA: QUIZÁ HACER UN WORD->PDF PARA QUE ESTÉN LAS IMÁGENES CONTENIDAS EN ÉL
