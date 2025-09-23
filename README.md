@@ -19,6 +19,7 @@ Flujo
 6. meter al LoRa las imagenes + prompts del paso 1
 7. entrenar el LoRa con los pares de imagenes img_0 - img_1
 8. volver a pasar los prompts una vez entrenado el lora por todo el flujo hasta el mesh y comparar
+9. Volver a hacer, para la muestra de resultados, las transformed_meshes que peor hayan salido.
    
 wizard -> todos los pasos
 
