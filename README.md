@@ -45,27 +45,27 @@ Overall, **Material-Alch3mist** represents an innovative approach to text-to-mes
 
 Essentially, in this project we use three different models. Each serves a specific purpose and was motivated by the need to address challenges that arose during the development of the main idea driving this project: the generation of realistic and visually striking 3D objects from text.
 
-## Flux1 dev
+## FLUX.1 [dev]
 
-This model consists of BLABLABLABLA.
+This model consists of a large-scale multimodal UNet designed for high-quality and fast text-to-image generation.
 
-We have used it for BLABLABLA.
+We have used it for creating the initial 2D images from text prompts, which serve as the foundational visual reference to further optimize our model.
 
-We have employed a basic workflow, available [aquí](./flows/flux-dev-basic/flux-dev-basic.json), which encapsulates its main functionalities.
+We have employed a basic workflow, available [here](./flows/flux-dev-basic/flux-dev-basic.json), which encapsulates its main functionalities.
 
-## Flux1 kontext dev
+## FLUX.1-Kontext [dev]
 
-This model consists of BLABLABLABLA.
+This model consists of a specialized version of FLUX.1 fine-tuned to generate single-view texture-enhanced consistent images from a single text prompt and a original baseline image.
 
-We have used it for BLABLABLA.
+We have used it for producing enhanced images, optimized for a further reliable mesh generation, highlighting quality texture, material, colors and prompt coherence, which are essential for accurate 2D and 3D generation.
 
-We have employed a basic workflow, available [aquí](./flows/flux-kontext-dev-basic/flux-kontext-dev-basic.json), which encapsulates its main functionalities.
+We have employed a basic workflow, available [here](./flows/flux-kontext-dev-basic/flux-kontext-dev-basic.json), which encapsulates its main functionalities.
 
-## Trellis
+## TRELLIS
 
-This model consists of BLABLABLABLA.
+This model consists of TRELLIS, a diffusion-based model specifically trained for generating 3D meshes from single or multiple input images.
 
-We have used it for BLABLABLA.
+We have used it for the final stage of the pipeline: converting the single-view 2D enhanced image into a detailed and textured 3D mesh object.
 
 We have employed a basic workflow, available [aquí](./flows/image-to-mesh/test_image_to_mesh_trellis.json), which encapsulates its main functionalities.
 
@@ -74,7 +74,7 @@ We have employed a basic workflow, available [aquí](./flows/image-to-mesh/test_
 
 # Dataset
 
-We have created a dataset consisting of BLABLABLA
+We have developed a dataset for our project. This is a key achievement, as this comprises the creation of a specialized dataset for Kontext in image editing, designed to enhance prompt interpretation accuracy and improve the handling of textures, materials, colors, and other visual properties.
 
 All the data (prompts, images and meshes) are available as a compressed Release [here](https://github.com/alejandro-garnung-ctic/material-alch3mist/releases/download/v0.0/data.zip).
 
@@ -95,6 +95,8 @@ High-performance GPUs (RTX A6000 and A100) were used to train the LoRA and run C
 ComfyUI is the visual interface that orchestrates the pipeline for generating images and textures with FLUX. It allows designing, running, and modifying node-based workflows in a modular way, without writing code.
 
 The flows we utilized are available in raw JSON format, ready to import in ComfyUI, [here](https://github.com/alejandro-garnung-ctic/material-alch3mist/tree/main/flows).
+
+[Here](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/flows/flux-kontext-texture-wizar3d/flux-kontext-texture-wizar3d.json) is available the JSON of the final flow of the project, where one can test the full functionality of our specialized model.
 
 ## AI Toolkit - OSTRIS
 
