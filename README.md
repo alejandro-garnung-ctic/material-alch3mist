@@ -10,7 +10,7 @@ An end-to-end text-to-mesh FLUX.1 Kontext [dev]-based diffusion model specialize
 
 # Flowchart / Pipeline
 <p align="center">
-  <img src="assets/diagram.png" alt="Flowchart" width="300" />
+  <img src="assets/diagram.png" alt="Flowchart" width="900" />
 </p>
 
 # (PARA DESARROLLO) Pipeline:
