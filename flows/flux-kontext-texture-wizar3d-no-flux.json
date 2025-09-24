@@ -1,0 +1,304 @@
+{
+  "5": {
+    "inputs": {
+      "clip_name1": "t5xxl_fp16.safetensors",
+      "clip_name2": "clip_l.safetensors",
+      "type": "flux",
+      "device": "default"
+    },
+    "class_type": "DualCLIPLoader",
+    "_meta": {
+      "title": "DualCLIPLoader"
+    }
+  },
+  "6": {
+    "inputs": {
+      "vae_name": "ae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "Cargar VAE"
+    }
+  },
+  "22": {
+    "inputs": {
+      "seed": 191450348344519,
+      "sparse_structure_guidance_scale": 7.5,
+      "sparse_structure_sample_steps": 12,
+      "structured_latent_guidance_scale": 3,
+      "structured_latent_sample_steps": 12,
+      "trellis_pipe": [
+        "23",
+        0
+      ],
+      "reference_image": [
+        "30",
+        0
+      ],
+      "reference_mask": [
+        "25",
+        0
+      ]
+    },
+    "class_type": "[Comfy3D] Trellis Structured 3D Latents Models",
+    "_meta": {
+      "title": "Trellis Structured 3D Latents Models"
+    }
+  },
+  "23": {
+    "inputs": {
+      "repo_id": "JeffreyXiang/TRELLIS-image-large"
+    },
+    "class_type": "[Comfy3D] Load Trellis Structured 3D Latents Models",
+    "_meta": {
+      "title": "Load Trellis Structured 3D Latents Models"
+    }
+  },
+  "25": {
+    "inputs": {
+      "mask": [
+        "30",
+        1
+      ]
+    },
+    "class_type": "InvertMask",
+    "_meta": {
+      "title": "InvertirMascara"
+    }
+  },
+  "27": {
+    "inputs": {
+      "mask": [
+        "25",
+        0
+      ]
+    },
+    "class_type": "MaskPreview",
+    "_meta": {
+      "title": "MaskPreview"
+    }
+  },
+  "28": {
+    "inputs": {
+      "mesh_file_path": [
+        "29",
+        0
+      ],
+      "preview3d": null
+    },
+    "class_type": "[Comfy3D] Preview 3DMesh",
+    "_meta": {
+      "title": "Preview 3DMesh"
+    }
+  },
+  "29": {
+    "inputs": {
+      "save_path": "alch3mist_003.glb",
+      "mesh": [
+        "22",
+        0
+      ]
+    },
+    "class_type": "[Comfy3D] Save 3D Mesh",
+    "_meta": {
+      "title": "Save 3D Mesh"
+    }
+  },
+  "30": {
+    "inputs": {
+      "image": [
+        "35",
+        0
+      ]
+    },
+    "class_type": "SplitImageWithAlpha",
+    "_meta": {
+      "title": "Dividir Imagen con Alfa"
+    }
+  },
+  "31": {
+    "inputs": {
+      "conditioning": [
+        "37",
+        0
+      ]
+    },
+    "class_type": "ReferenceLatent",
+    "_meta": {
+      "title": "ReferenceLatent"
+    }
+  },
+  "32": {
+    "inputs": {
+      "guidance": 3.5,
+      "conditioning": [
+        "31",
+        0
+      ]
+    },
+    "class_type": "FluxGuidance",
+    "_meta": {
+      "title": "FluxGuidance"
+    }
+  },
+  "33": {
+    "inputs": {
+      "conditioning": [
+        "37",
+        0
+      ]
+    },
+    "class_type": "ConditioningZeroOut",
+    "_meta": {
+      "title": "Acondicionamiento Cero"
+    }
+  },
+  "34": {
+    "inputs": {
+      "seed": 139700398102655,
+      "steps": 20,
+      "cfg": 8,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1,
+      "model": [
+        "39",
+        0
+      ],
+      "positive": [
+        "32",
+        0
+      ],
+      "negative": [
+        "33",
+        0
+      ],
+      "latent_image": [
+        "44",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "KSampler"
+    }
+  },
+  "35": {
+    "inputs": {
+      "samples": [
+        "34",
+        0
+      ],
+      "vae": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "Decodificación VAE"
+    }
+  },
+  "37": {
+    "inputs": {
+      "text": "Alch3mist, make a humanoid figure with skin made of cracked porcelain, embedded with veins of molten gold, patches of rough stone, and translucent resin.",
+      "clip": [
+        "39",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Positive Prompt)"
+    }
+  },
+  "38": {
+    "inputs": {
+      "images": [
+        "35",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Vista previa de imagen"
+    }
+  },
+  "39": {
+    "inputs": {
+      "lora_name": "alch3mist_005.safetensors",
+      "strength_model": 1,
+      "strength_clip": 1,
+      "model": [
+        "43",
+        0
+      ],
+      "clip": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "Cargar LoRA"
+    }
+  },
+  "41": {
+    "inputs": {
+      "filename_prefix": "alch3mist_000.png",
+      "images": [
+        "35",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Guardar Imagen"
+    }
+  },
+  "43": {
+    "inputs": {
+      "unet_name": "flux1-dev-kontext_fp8_scaled.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "Cargar Modelo de Difusion de Edición"
+    }
+  },
+  "44": {
+    "inputs": {
+      "width": [
+        "45",
+        0
+      ],
+      "height": [
+        "46",
+        0
+      ],
+      "batch_size": 1
+    },
+    "class_type": "EmptySD3LatentImage",
+    "_meta": {
+      "title": "EmptySD3LatentImage"
+    }
+  },
+  "45": {
+    "inputs": {
+      "value": 1024
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "width"
+    }
+  },
+  "46": {
+    "inputs": {
+      "value": 1024
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "height"
+    }
+  }
+}
