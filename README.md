@@ -16,9 +16,9 @@ An end-to-end text-to-mesh **FLUX.1 Kontext [dev]**-based diffusion model specia
 
 ## Video presentation
 
-Video submission for the Black Forest Labs - FLUX Kontext [dev] Hackathon:
+Video submission for the Black Forest Labs - FLUX Kontext [dev] Hackathon ([link to Youtube](https://www.youtube.com/watch?v=hYm-ZqHkuTE&feature=youtu.be)):
 
-# INSERTAR AQUÍ PRESENTACIÓN COMO MP4, VER https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md
+https://github.com/user-attachments/assets/932bbb31-269f-4664-afe7-29b595b60b9e
 
 # Introduction
 
