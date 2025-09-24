@@ -117,7 +117,11 @@ RUN pip install --no-cache-dir \
     av
 ```
 
-To launch the container, the following command is sufficient, which will start the web interface at `localhost:8089`.
+To launch the container, the following command is sufficient, which will start the web interface at `localhost:8089`:
+
+```sh
+docker build -f Dockerfile_custom -t comfy3d-pt25-custom . && docker run -it --name comfy3d-pt25-custom --gpus all -p 8189:8188 -v "$(pwd)"/storage:/root -e CLI_ARGS="" comfy3d-pt25-custom
+```
 
 ## Python + PIL
 
