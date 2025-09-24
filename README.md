@@ -8,9 +8,10 @@ An end-to-end text-to-mesh FLUX.1 Kontext [dev]-based diffusion model specialize
 > [!NOTE]  
 > This project has been developed for the Black Forest Labs - FLUX.1 Kontext [dev] Hackathon
 
-# foto diagrama 1
-
-# foto diagrama 2
+# Flowchart / Pipeline
+<p align="center">
+  <img src="assets/diagram.png" alt="Flowchart" width="300" />
+</p>
 
 # (PARA DESARROLLO) Pipeline:
 
