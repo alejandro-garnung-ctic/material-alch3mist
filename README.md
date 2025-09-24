@@ -108,7 +108,7 @@ OWUI is the web interface that lets users interact with the pipeline through pro
 
 ## Docker
 
-The ComfyUI server used is encapsulated within a Docker container based on [this image](https://github.com/yongxinchen/comfyui-docker/blob/main/comfy3d-pt25/README.adoc), which contains all the necessary dependencies to run the ComfyUI-3D-Pack, as well as some additional ones specified in the following Dockerfile:
+The ComfyUI server used is encapsulated within a Docker container based on [this image](https://github.com/yongxinchen/comfyui-docker/blob/main/comfy3d-pt25/README.adoc), which contains all the necessary dependencies to run the [ComfyUI-3D-Pack](https://github.com/MrForExample/ComfyUI-3D-Pack), as well as some additional ones specified in the following Dockerfile:
 
 ```dockerfile
 FROM yanwk/comfyui-boot:comfy3d-pt25
@@ -141,7 +141,8 @@ The file [baseline_vs_enhanced](https://github.com/alejandro-garnung-ctic/materi
 
 # References
 
-- https://arxiv.org/abs/2506.15742
-- https://arxiv.org/abs/2412.01506
-- https://arxiv.org/abs/2106.09685
-- https://docs.comfy.org/tutorials/flux/flux-1-kontext-dev#flux-1-kontext-dev-workflow
+- [FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space](https://arxiv.org/abs/2506.15742) 
+- [Structured 3D Latents for Scalable and Versatile 3D Generation](https://arxiv.org/abs/2412.01506) 
+- [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) 
+- [ComfyUI Flux Kontext Dev Native Workflow Example](https://docs.comfy.org/tutorials/flux/flux-1-kontext-dev#flux-1-kontext-dev-workflow)
+- [Black Forest Labs - FLUX.1 Kontext [dev] Hackathon](https://bfl-kontext-dev.devpost.com/?ref_feature=challenge&ref_medium=your-open-hackathons&ref_content=Submissions+open&_gl=1*1yagg28*_ga*MTUwNjg3MTQwMi4xNzU4MjcwMzY2*_ga_0YHJK3Y10M*czE3NTgyNzAzNjYkbzEkZzAkdDE3NTgyNzAzNjYkajYwJGwwJGgw)
