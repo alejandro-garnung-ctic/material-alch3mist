@@ -153,7 +153,7 @@ Python with PIL was used to resize and convert all images to RGBA and save them 
 
 # Results
 
-The file [baseline_vs_enhanced](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/results/baseline_vs_enhanced.md) contains a compilation of the results obtained. It is referenced for consulting the experiments and their conclusions.
+The file [results](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/results/results.pdf) contains a compilation of the results obtained. It is referenced for consulting the experiments and their conclusions.
 
 # References
 
