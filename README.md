@@ -117,19 +117,23 @@ We have employed open-source tools, both in cloud and local versions, for the im
 
 ## GPUs
 
-...
+High-performance GPUs (RTX A6000 and A100) were used to train the LoRA and run ComfyUI flows without bottlenecks. Their large memory and computing power make it possible to handle complex images and 3D models smoothly.
+
+- For training the LoRA adapter, we used an NVIDIA RTX A6000 with 48 GB GDDR6 of memory and a 300 W power envelope.
+
+- For running ComfyUI flows, we used an NVIDIA A100 SXM4 with 80 GB HBM2e and a 400 W power envelope.
 
 ## ComfyUI
 
-....
+ComfyUI is the visual interface that orchestrates the pipeline for generating images and textures with FLUX. It allows designing, running, and modifying node-based workflows in a modular way, without writing code.
 
 ## AI Toolkit - OSTRIS
 
-....
+OSTRIS is used as a toolkit for managing and training lightweight models like LoRAs, optimizing datasets and experiments. It simplifies the integration of custom-trained models into the workflow.
 
 ## OWUI
 
-...
+OWUI is the web interface that lets users interact with the pipeline through prompts and visualize results intuitively. It works as an accessible layer for non-technical users to explore the system.
 
 ## Docker
 
