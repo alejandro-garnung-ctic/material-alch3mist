@@ -6,7 +6,7 @@ An end-to-end text-to-mesh **FLUX.1 Kontext [dev]**-based diffusion model specia
 </p>
 
 > [!IMPORTANT]  
-> This project has been developed for the Black Forest Labs - FLUX.1 Kontext [dev] Hackathon.
+> This project has been developed for the [Black Forest Labs - FLUX.1 Kontext [dev] Hackathon](https://bfl-kontext-dev.devpost.com/?ref_feature=challenge&ref_medium=your-open-hackathons&ref_content=Submissions+open&_gl=1*1yagg28*_ga*MTUwNjg3MTQwMi4xNzU4MjcwMzY2*_ga_0YHJK3Y10M*czE3NTgyNzAzNjYkbzEkZzAkdDE3NTgyNzAzNjYkajYwJGwwJGgw).
 
 ## Flowchart / Pipeline
 <p align="center">
