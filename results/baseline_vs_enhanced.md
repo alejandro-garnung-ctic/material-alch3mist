@@ -8,4 +8,10 @@ In the following file, we present a tabular record of the comparison results bet
 | 2 | ![original2](../data/original/img_001.png) | ![transformed1](../data/original/img_001.png) | ![final_images2](../data/final_images/img_001.png) |
 | ... | ... | ... | ... |
 
+| # | ALGO PARA MESHES ANTES | ALGO PARA MESHES DESPUES  |
+|---|-------------------------------|--------------------------------------------|
+| 1 |... | ... |
+| 2 | ... | ...|
+| ... | ... | ... | ... |
+
 # NOTA: QUIZÁ HACER UN WORD->PDF PARA QUE ESTÉN LAS IMÁGENES CONTENIDAS EN ÉL
