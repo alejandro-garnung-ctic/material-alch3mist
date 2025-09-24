@@ -1,12 +1,12 @@
 # material-alch3mist
-An end-to-end text-to-mesh FLUX.1 Kontext [dev]-based diffusion model specialized on texture generation
+An end-to-end text-to-mesh **FLUX.1 Kontext [dev]**-based diffusion model specialized on texture generation.
 
 <p align="center">
   <img src="assets/logo.png" alt="Material Alch3mist" width="300" />
 </p>
 
 > [!IMPORTANT]  
-> This project has been developed for the Black Forest Labs - FLUX.1 Kontext [dev] Hackathon
+> This project has been developed for the Black Forest Labs - FLUX.1 Kontext [dev] Hackathon.
 
 ## Flowchart / Pipeline
 <p align="center">
