@@ -35,7 +35,7 @@ This model consists of a large-scale multimodal UNet designed for high-quality a
 
 We have used it for creating the initial 2D images from text prompts, which serve as the foundational visual reference to further optimize our model.
 
-We have employed a basic workflow, available [here](./flows/flux-dev-basic/flux-dev-basic.json), which encapsulates its main functionalities.
+We have employed a basic workflow, available [here](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/flows/flux-dev-basic.json), which encapsulates its main functionalities.
 
 ## FLUX.1-Kontext [dev]
 
@@ -43,7 +43,7 @@ This model consists of a specialized version of FLUX.1 fine-tuned to generate si
 
 We have used it for producing enhanced images, optimized for a further reliable mesh generation, highlighting quality texture, material, colors and prompt coherence, which are essential for accurate 2D and 3D generation.
 
-We have employed a basic workflow, available [here](./flows/flux-kontext-dev-basic/flux-kontext-dev-basic.json), which encapsulates its main functionalities.
+We have employed a basic workflow, available [here](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/flows/flux-kontext-dev-basic.json), which encapsulates its main functionalities.
 
 ## TRELLIS
 
@@ -51,7 +51,7 @@ This model consists of TRELLIS, a diffusion-based model specifically trained for
 
 We have used it for the final stage of the pipeline: converting the single-view 2D enhanced image into a detailed and textured 3D mesh object.
 
-We have employed a basic workflow, available [aquí](./flows/image-to-mesh/test_image_to_mesh_trellis.json), which encapsulates its main functionalities.
+We have employed a basic workflow, available [aquí](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/flows/image-to-mesh-trellis.json), which encapsulates its main functionalities.
 
 > [!NOTE]
 > To visualize and compare different meshes, we use standard illumination conditions by means of three discrete white light points, with the software [Visor 3D](https://apps.microsoft.com/detail/9nblggh42ths?hl=es-MX&gl=ES).
@@ -80,7 +80,11 @@ ComfyUI is the visual interface that orchestrates the pipeline for generating im
 
 The flows we utilized are available in raw JSON format, ready to import in ComfyUI, [here](https://github.com/alejandro-garnung-ctic/material-alch3mist/tree/main/flows).
 
-[Here](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/flows/flux-kontext-texture-wizar3d/flux-kontext-texture-wizar3d.json) is available the JSON of the final flow of the project, where one can test the full functionality of our specialized model.
+[Here](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/flows/flux-kontext-texture-wizar3d-no-flux.json) is available the JSON of the final flow of the project, where one can test the full functionality of our specialized model:
+
+<p align="center">
+  <img src="assets/final_flow.png" alt="Final Flow" style="width: 100%;" />
+</p>
 
 ## AI Toolkit - OSTRIS
 
