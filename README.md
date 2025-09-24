@@ -13,6 +13,10 @@ An end-to-end text-to-mesh **FLUX.1 Kontext [dev]**-based diffusion model specia
   <img src="assets/diagram.png" alt="Flowchart" width="900" />
 </p>
 
+## Video presentation
+
+# INSERTAR AQUÍ PRESENTACIÓN COMO MP4, VER https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md
+
 # Introduction
 
 The **Material-Alch3mist** project arises from the need to create 3D assets rich in textures from textual descriptions, combining innovation in generative models with modular flexibility. It is an **end-to-end text-to-mesh pipeline** based on **FLUX.1 Kontext \[dev]**, specialized in generating and enhancing textures, ensuring that the final 3D meshes retain fine details and stylistically coherent materials.
