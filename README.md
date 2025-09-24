@@ -88,7 +88,7 @@ We use the following open source model weights and parameters:
 
 Additionally, we trained our specialized LoRA adapter and our weights are published:
 
-- [alch3mist_005.safetensors](https://github.com/alejandro-garnung-ctic/material-alch3mist/releases/download/v0.0/alch3mist_005.safetensors) (in `ComfyUI/models/vae`)
+- [alch3mist_005.safetensors](https://github.com/alejandro-garnung-ctic/material-alch3mist/releases/download/v0.0/alch3mist_005.safetensors) (in `ComfyUI/models/loras`)
 
 The flows we utilized are available in raw JSON format, ready to import in ComfyUI, [here](https://github.com/alejandro-garnung-ctic/material-alch3mist/tree/main/flows).
 
