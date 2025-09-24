@@ -8,41 +8,10 @@ An end-to-end text-to-mesh FLUX.1 Kontext [dev]-based diffusion model specialize
 > [!NOTE]  
 > This project has been developed for the Black Forest Labs - FLUX.1 Kontext [dev] Hackathon
 
-# Flowchart / Pipeline
+## Flowchart / Pipeline
 <p align="center">
   <img src="assets/diagram.png" alt="Flowchart" width="900" />
 </p>
-
-# (PARA DESARROLLO) Pipeline:
-
-- [ ] Repo con JSON de comfy + README + algo de owui
-- [ ] Brief explanation
-- [ ] Text description
-- [ ] Demo video: comfyui explicar el flujo + Lora... y al final prueba de concepto con asistente conversacional en OWUI
-- [ ] URL a los pesos del modelo (en HF o como Release de Git)
-
-Flujo
-
-1. pedir chatgpt prompts para imagenes con texturas y materiales variados y singulares (5-10)
-2. reservar 10 imagenes para test
-3. inyectarlos en FLUX-dev de comfy para generar img_0 (50 aprox)
-4. meter imagenes_0 a 3D model para tener base
-5. meter img_0 a flux kontext + prompt de enhacing texture -> imagenes con mejor textura img_1
-6. meter al LoRa las imagenes + prompts del paso 1
-7. entrenar el LoRa con los pares de imagenes img_0 - img_1
-8. volver a pasar los prompts una vez entrenado el lora por todo el flujo hasta el mesh y comparar
-9. Volver a hacer, para la muestra de resultados, las transformed_meshes que peor hayan salido.
-   
-wizard -> todos los pasos
-
-flux-dev-basic -> prompts de chatGPT -> cambiar nombre a img0_001.jpg
-
-> [!NOTE]
-> En la carpeta `/data`:
-> 
-> /img0 == /original
-> 
-> /img1 == /transformed
 
 # Table of Contents 
 
@@ -62,11 +31,9 @@ flux-dev-basic -> prompts de chatGPT -> cambiar nombre a img0_001.jpg
 
 # Introduction
 
-## Introduction
-
 The **Material-Alch3mist** project arises from the need to create 3D assets rich in textures from textual descriptions, combining innovation in generative models with modular flexibility. It is an **end-to-end text-to-mesh pipeline** based on **FLUX.1 Kontext \[dev]**, specialized in generating and enhancing textures, ensuring that the final 3D meshes retain fine details and stylistically coherent materials.
 
-The core idea of the project is based on a **modular three-stage approach**. First, base images are generated from textual prompts using [**FLUX.1-dev**](https://github.com/black-forest-labs/flux), producing 2D assets that are coherent with the desired scene or object. The second stage introduces a specialized [**FLUX.1-Kontext**](https://fluxcontext.org/) dev for texture enhancement, trained with a **lightweight LoRA** that transforms these base images into enriched versions, applying specific materials, styles, and colors. Finally, the third stage converts these textured images into **multiview 3D meshes** using [**TRELLIS**](https://trellis3d.github.io), ensuring that texture fidelity is preserved when transitioning from 2D to 3D.
+The core idea of the project is based on a **modular three-stage approach**. First, base images are generated from textual prompts using [**FLUX.1 [dev]**](https://github.com/black-forest-labs/flux), producing 2D assets that are coherent with the desired scene or object. The second stage introduces a specialized [**FLUX.1-Kontext [dev]**](https://fluxcontext.org/) dev for texture enhancement, trained with a **lightweight LoRA** that transforms these base images into enriched versions, applying specific materials, styles, and colors. Finally, the third stage converts these textured images into **multiview 3D meshes** using [**TRELLIS**](https://trellis3d.github.io), ensuring that texture fidelity is preserved when transitioning from 2D to 3D.
 
 One of the main advantages of this approach is its **flexibility and modularity**. Each stage of the pipeline can be adjusted independently: different LoRAs or FLUX variants can be incorporated, the generative flow can be finely parameterized, and new textures can be experimented with without compromising the base model. Additionally, delegating texture enhancement to a LoRA enables **fast training**, requiring only a few hours of computation and a relatively small number of image pairs, avoiding the need to retrain full models with large datasets.
 
