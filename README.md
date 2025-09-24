@@ -13,22 +13,6 @@ An end-to-end text-to-mesh **FLUX.1 Kontext [dev]**-based diffusion model specia
   <img src="assets/diagram.png" alt="Flowchart" width="900" />
 </p>
 
-# Table of Contents 
-
-1. [Introduction](#introduction)
-2. [Models](#models)
-   1. [Flux1 dev](#flux1-dev)
-   2. [Flux1 kontext dev](#flux1-kontext-dev)
-   3. [Trellis](#trellis)
-3. [Dataset](#dataset)
-4. [Tools](#tools)
-   1. [GPUs](#gpus)
-   2. [ComfyUI](#comfyui)
-   3. [AI Toolkit - OSTRIS](#ai-toolkit---ostris)
-   4. [OWUI](#owui)
-   5. [Python + PIL](#python--pil)
-5. [Results](#results)
-
 # Introduction
 
 The **Material-Alch3mist** project arises from the need to create 3D assets rich in textures from textual descriptions, combining innovation in generative models with modular flexibility. It is an **end-to-end text-to-mesh pipeline** based on **FLUX.1 Kontext \[dev]**, specialized in generating and enhancing textures, ensuring that the final 3D meshes retain fine details and stylistically coherent materials.
