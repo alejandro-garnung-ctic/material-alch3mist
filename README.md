@@ -78,6 +78,18 @@ High-performance GPUs (RTX A6000 and A100) were used to train the LoRA and run C
 
 ComfyUI is the visual interface that orchestrates the pipeline for generating images and textures with FLUX. It allows designing, running, and modifying node-based workflows in a modular way, without writing code.
 
+We use the following open source model weights and parameters:
+
+- [ae.safetensors](https://huggingface.co/Comfy-Org/Lumina_Image_2.0_Repackaged/blob/main/split_files/vae/ae.safetensors) (in `ComfyUI/models/vae`)
+- [flux1-dev.safetensors](https://huggingface.co/black-forest-labs/FLUX.1-dev) (in `ComfyUI/models/unet`)
+- [flux1-kontext-dev.safetensors](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev) (in `ComfyUI/models/diffusion_models`)
+- [t5xxl_fp16.safetensors](https://huggingface.co/comfyanonymous/flux_text_encoders/tree/main) (in `ComfyUI/models/clip`)
+- [clip_l](https://huggingface.co/comfyanonymous/flux_text_encoders/tree/main) (in `ComfyUI/models/clip`)
+
+Additionally, we trained our specialized LoRA adapter and our weights are published:
+
+- [alch3mist_005.safetensors](https://github.com/alejandro-garnung-ctic/material-alch3mist/releases/download/v0.0/alch3mist_005.safetensors) (in `ComfyUI/models/vae`)
+
 The flows we utilized are available in raw JSON format, ready to import in ComfyUI, [here](https://github.com/alejandro-garnung-ctic/material-alch3mist/tree/main/flows).
 
 [Here](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/flows/flux-kontext-texture-wizar3d-no-flux.json) is available the JSON of the final flow of the project, where one can test the full functionality of our specialized model:
