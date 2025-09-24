@@ -8,12 +8,15 @@ An end-to-end text-to-mesh **FLUX.1 Kontext [dev]**-based diffusion model specia
 > [!IMPORTANT]  
 > This project has been developed for the [Black Forest Labs - FLUX.1 Kontext [dev] Hackathon](https://bfl-kontext-dev.devpost.com/?ref_feature=challenge&ref_medium=your-open-hackathons&ref_content=Submissions+open&_gl=1*1yagg28*_ga*MTUwNjg3MTQwMi4xNzU4MjcwMzY2*_ga_0YHJK3Y10M*czE3NTgyNzAzNjYkbzEkZzAkdDE3NTgyNzAzNjYkajYwJGwwJGgw).
 
-## Flowchart / Pipeline
+## Flowchart / pipeline
+
 <p align="center">
   <img src="assets/diagram.png" alt="Flowchart" width="900" />
 </p>
 
 ## Video presentation
+
+Video submission for the Black Forest Labs - FLUX Kontext [dev] Hackathon:
 
 # INSERTAR AQUÍ PRESENTACIÓN COMO MP4, VER https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md
 
