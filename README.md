@@ -86,6 +86,9 @@ The flows we utilized are available in raw JSON format, ready to import in Comfy
   <img src="assets/final_flow.png" alt="Final Flow" style="width: 100%;" />
 </p>
 
+> [!WARNING]  
+> Is preferable that the input images are in RGBA format. One can use the scripts from the `/utils` folder for that.
+
 ## AI Toolkit - OSTRIS
 
 OSTRIS is used as a toolkit for managing and training lightweight models like LoRAs, optimizing datasets and experiments. It simplifies the integration of custom-trained models into the workflow.
