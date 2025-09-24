@@ -69,7 +69,7 @@ We have employed a basic workflow, available [aquí](https://github.com/alejandr
 
 We have developed a dataset for our project. This is a key achievement, as this comprises the creation of a specialized dataset for Kontext in image editing, designed to enhance prompt interpretation accuracy and improve the handling of textures, materials, colors, and other visual properties.
 
-All the data (prompts, images and meshes) are available as a compressed Release [here](https://github.com/alejandro-garnung-ctic/material-alch3mist/releases/download/v0.0/data.zip).
+All the data (prompts, images and meshes) are available as a compressed Release [here](https://github.com/alejandro-garnung-ctic/material-alch3mist/releases/download/v1.0/data.zip).
 
 # Tools
 
