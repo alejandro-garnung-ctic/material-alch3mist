@@ -114,9 +114,17 @@ The flows we utilized are available in raw JSON format, ready to import in Comfy
 
 OSTRIS is used as a toolkit for managing and training lightweight models like LoRAs, optimizing datasets and experiments. It simplifies the integration of custom-trained models into the workflow.
 
+<p align="center">
+  <img src="assets/ostris.png" alt="OSTRIS" width="600" />
+</p>
+
 ## OWUI
 
 OWUI is the web interface that lets users interact with the pipeline through prompts and visualize results intuitively. It works as an accessible layer for non-technical users to explore the system.
+
+<p align="center">
+  <img src="assets/owui.png" alt="OWUI" width="600" />
+</p>
 
 ## Docker
 
@@ -154,6 +162,10 @@ Python with PIL was used to resize and convert all images to RGBA and save them 
 # Results
 
 The file [results](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/results/results.pdf) contains a compilation of the results obtained. It is referenced for consulting the experiments and their conclusions.
+
+<p align="center">
+  <img src="assets/results.png" alt="Results" width="600" />
+</p>
 
 # References
 
