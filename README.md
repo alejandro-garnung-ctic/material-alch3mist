@@ -161,7 +161,7 @@ Python with PIL was used to resize and convert all images to RGBA and save them 
 
 # Results
 
-The file [results](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/results/results.pdf) contains a compilation of the results obtained. It is referenced for consulting the experiments and their conclusions.
+The file [results.pdf](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/results/results.pdf) contains a compilation of the results obtained. It is referenced for consulting the experiments and their conclusions.
 
 <p align="center">
   <img src="assets/results.png" alt="Results" style="width: 100%;" />
