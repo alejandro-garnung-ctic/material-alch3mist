@@ -60,7 +60,7 @@ This model consists of TRELLIS, a diffusion-based model specifically trained for
 
 We have used it for the final stage of the pipeline: converting the single-view 2D enhanced image into a detailed and textured 3D mesh object.
 
-We have employed a basic workflow, available [aquí](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/flows/image-to-mesh-trellis.json), which encapsulates its main functionalities.
+We have employed a basic workflow, available [here](https://github.com/alejandro-garnung-ctic/material-alch3mist/blob/main/flows/image-to-mesh-trellis.json), which encapsulates its main functionalities.
 
 > [!NOTE]
 > To visualize and compare different meshes, we use standard illumination conditions by means of three discrete white light points, with the software [Visor 3D](https://apps.microsoft.com/detail/9nblggh42ths?hl=es-MX&gl=ES).
